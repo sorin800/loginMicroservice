@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+
+<html xmlns:th="https://www.thymeleaf.org"
+      xmlns:sec="https://www.thymeleaf.org/thymeleaf-extras-springsecurity5">
+
+<head>
+    <meta charset="ISO-8859-1">
+    <title>Home</title>
+</head>
+
+<body>
+    <h1>Welcome <span sec:authentication="name"></span></h1>
+        <div>
+            <h2>User Roles:</h2><strong><span sec:authentication="principal.authorities"></span></strong>
+        </div>
+</body>
+</html>
