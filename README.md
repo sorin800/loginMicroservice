@@ -1,2 +1,2 @@
 # loginMicroservice
-Authentication microserivce using Spring boot, security and JPA-Hibernate.
+Authentication microserivce using Spring boot, Spring Security and JPA-Hibernate.
