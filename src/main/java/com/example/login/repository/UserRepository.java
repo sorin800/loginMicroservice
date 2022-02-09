@@ -9,7 +9,9 @@ import com.example.login.model.User;
 @Repository
 public interface UserRepository extends JpaRepository<User, Integer> {
 
-        public String findByName(String name);
+        User findByName(String name);
 
-        public String findByLastName(String name);
+        User findByLastName(String name);
+
+
 }

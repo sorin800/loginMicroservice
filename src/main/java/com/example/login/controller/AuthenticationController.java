@@ -69,6 +69,7 @@ public class AuthenticationController {
 		modelAndView.setViewName("register");
 		return modelAndView;
 	}
+
 }
 
 
